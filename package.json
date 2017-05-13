@@ -1,0 +1,14 @@
+{
+  "name": "miku-dash",
+  "version": "1.0.0",
+  "description": "A Hatsune Miku side-scrolling adventure",
+  "main": "Boot.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "miku"
+  ],
+  "author": "Joshua Vaughn",
+  "license": "ISC"
+}
