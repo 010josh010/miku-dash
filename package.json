@@ -10,5 +10,8 @@
     "miku"
   ],
   "author": "Joshua Vaughn",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
 }
