@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "level_1_layer_1.png",
+	"frame": {"x":1,"y":1,"w":2048,"h":1024},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2048,"h":1024},
+	"sourceSize": {"w":2048,"h":1024}
+},
+{
+	"filename": "level_1_layer_2.png",
+	"frame": {"x":1,"y":1027,"w":2048,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2048,"h":140},
+	"sourceSize": {"w":2048,"h":140}
+},
+{
+	"filename": "level_1_tilte.png",
+	"frame": {"x":2051,"y":1,"w":205,"h":208},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":208},
+	"sourceSize": {"w":205,"h":208}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_1.png",
+	"format": "RGBA8888",
+	"size": {"w":2257,"h":1168},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:54cb0b44da917a8d1776a918c21457c9:2883363f0a2f84b51070322d5f88e770:7b91a8826a9bc3439ffa7d4d7997cca3$"
+}
+}
