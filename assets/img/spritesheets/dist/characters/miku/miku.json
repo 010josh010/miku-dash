@@ -2,225 +2,225 @@
 
 {
 	"filename": "miku_idle_0.png",
-	"frame": {"x":320,"y":0,"w":55,"h":64},
+	"frame": {"x":331,"y":1,"w":55,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":55,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":64},
 	"sourceSize": {"w":55,"h":64}
 },
 {
 	"filename": "miku_idle_1.png",
-	"frame": {"x":375,"y":0,"w":54,"h":64},
+	"frame": {"x":388,"y":1,"w":54,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":54,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":64},
 	"sourceSize": {"w":54,"h":64}
 },
 {
 	"filename": "miku_idle_2.png",
-	"frame": {"x":212,"y":63,"w":55,"h":64},
+	"frame": {"x":57,"y":130,"w":55,"h":64},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":64},
 	"sourceSize": {"w":55,"h":64}
 },
 {
 	"filename": "miku_idle_3.png",
-	"frame": {"x":320,"y":64,"w":54,"h":64},
+	"frame": {"x":1,"y":128,"w":54,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":54,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":64},
 	"sourceSize": {"w":54,"h":64}
 },
 {
 	"filename": "miku_idle_4.png",
-	"frame": {"x":751,"y":0,"w":51,"h":64},
+	"frame": {"x":445,"y":67,"w":51,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":51,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":64},
 	"sourceSize": {"w":51,"h":64}
 },
 {
 	"filename": "miku_idle_5.png",
-	"frame": {"x":267,"y":63,"w":53,"h":64},
+	"frame": {"x":114,"y":131,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_6.png",
-	"frame": {"x":374,"y":64,"w":53,"h":64},
+	"frame": {"x":169,"y":132,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_7.png",
-	"frame": {"x":427,"y":64,"w":53,"h":64},
+	"frame": {"x":224,"y":132,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":6,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_8.png",
-	"frame": {"x":480,"y":64,"w":53,"h":64},
+	"frame": {"x":335,"y":67,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_9.png",
-	"frame": {"x":533,"y":64,"w":53,"h":64},
+	"frame": {"x":390,"y":67,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_10.png",
-	"frame": {"x":429,"y":0,"w":55,"h":64},
+	"frame": {"x":331,"y":1,"w":55,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":55,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":64},
 	"sourceSize": {"w":55,"h":64}
 },
 {
 	"filename": "miku_idle_11.png",
-	"frame": {"x":484,"y":0,"w":54,"h":64},
+	"frame": {"x":1,"y":62,"w":54,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":54,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":64},
 	"sourceSize": {"w":54,"h":64}
 },
 {
 	"filename": "miku_idle_12.png",
-	"frame": {"x":538,"y":0,"w":55,"h":64},
+	"frame": {"x":57,"y":64,"w":55,"h":64},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":64},
 	"sourceSize": {"w":55,"h":64}
 },
 {
 	"filename": "miku_idle_13.png",
-	"frame": {"x":593,"y":0,"w":54,"h":64},
+	"frame": {"x":114,"y":65,"w":54,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":54,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":64},
 	"sourceSize": {"w":54,"h":64}
 },
 {
 	"filename": "miku_idle_14.png",
-	"frame": {"x":647,"y":0,"w":51,"h":64},
+	"frame": {"x":444,"y":1,"w":51,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":51,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":64},
 	"sourceSize": {"w":51,"h":64}
 },
 {
 	"filename": "miku_idle_15.png",
-	"frame": {"x":698,"y":0,"w":53,"h":64},
+	"frame": {"x":170,"y":66,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_16.png",
-	"frame": {"x":0,"y":59,"w":53,"h":64},
+	"frame": {"x":225,"y":66,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_17.png",
-	"frame": {"x":53,"y":61,"w":53,"h":64},
+	"frame": {"x":280,"y":67,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":6,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_18.png",
-	"frame": {"x":106,"y":62,"w":53,"h":64},
+	"frame": {"x":335,"y":67,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_idle_19.png",
-	"frame": {"x":159,"y":63,"w":53,"h":64},
+	"frame": {"x":390,"y":67,"w":53,"h":64},
 	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":0,"w":53,"h":64},
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":64},
 	"sourceSize": {"w":53,"h":64}
 },
 {
 	"filename": "miku_walk_0.png",
-	"frame": {"x":0,"y":0,"w":59,"h":59},
+	"frame": {"x":1,"y":1,"w":59,"h":59},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":59},
 	"sourceSize": {"w":59,"h":59}
 },
 {
 	"filename": "miku_walk_1.png",
-	"frame": {"x":586,"y":64,"w":58,"h":64},
+	"frame": {"x":279,"y":133,"w":58,"h":64},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":64},
 	"sourceSize": {"w":58,"h":64}
 },
 {
 	"filename": "miku_walk_2.png",
-	"frame": {"x":644,"y":64,"w":56,"h":64},
+	"frame": {"x":339,"y":133,"w":56,"h":64},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":64},
 	"sourceSize": {"w":56,"h":64}
 },
 {
 	"filename": "miku_walk_3.png",
-	"frame": {"x":187,"y":0,"w":59,"h":63},
+	"frame": {"x":194,"y":1,"w":59,"h":63},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":63},
 	"sourceSize": {"w":59,"h":63}
 },
 {
 	"filename": "miku_walk_4.png",
-	"frame": {"x":59,"y":0,"w":61,"h":61},
+	"frame": {"x":62,"y":1,"w":61,"h":61},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
 	"sourceSize": {"w":61,"h":61}
 },
 {
 	"filename": "miku_walk_5.png",
-	"frame": {"x":700,"y":64,"w":70,"h":64},
+	"frame": {"x":397,"y":133,"w":70,"h":64},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":64},
 	"sourceSize": {"w":70,"h":64}
 },
 {
 	"filename": "miku_walk_6.png",
-	"frame": {"x":246,"y":0,"w":74,"h":63},
+	"frame": {"x":255,"y":1,"w":74,"h":63},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":63},
 	"sourceSize": {"w":74,"h":63}
 },
 {
 	"filename": "miku_walk_7.png",
-	"frame": {"x":120,"y":0,"w":67,"h":62},
+	"frame": {"x":125,"y":1,"w":67,"h":62},
 	"rotated": false,
-	"trimmed": true,
+	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
 	"sourceSize": {"w":67,"h":62}
 }],
@@ -229,8 +229,8 @@
 	"version": "1.0",
 	"image": "miku.png",
 	"format": "RGBA8888",
-	"size": {"w":802,"h":128},
+	"size": {"w":497,"h":198},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:ba7657474f806d70350dd1467e23e693:17e9952841d69a099638fea30df91b5e:885be9a0e6d4100bc29003ffa1ec5fda$"
+	"smartupdate": "$TexturePacker:SmartUpdate:6224bf8bcf2b4a74fa27f6451f398432:17e9952841d69a099638fea30df91b5e:885be9a0e6d4100bc29003ffa1ec5fda$"
 }
 }
