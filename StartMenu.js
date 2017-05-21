@@ -4,10 +4,23 @@ mikuDash.StartMenu = function(game){
     this.filter; 
     this.sprite; 
     this.filter;
-    this.titleText;
+    this.titleText; 
 }
 
 mikuDash.StartMenu.prototype = {
+    
+      //for adding character animation frames
+      addFrames :function(name, f1, f2){
+            var frames = []; 
+            for(var i = f1; i<=f2 ; i++){
+                if(!isNaN(f1) && !isNaN(f2)){
+                    frames.push(name +i+'.png'); 
+                } else {
+                    console.error('must pass a number to the addFrames function'); 
+                }
+            }
+            return frames; 
+        },
     
     create:function(game){
         
@@ -27,11 +40,12 @@ mikuDash.StartMenu.prototype = {
         
         //for miku going across the screen 
         this.miku = this.add.sprite(0 , 300 , 'miku')
-        this.miku.animations.add('walk' , this.addFrames(20, 27));
-        this.miku.animations.play('walk' , 11 , true)
-        this.add.tween(this.miku).to({ x: game.width }, 50000, Phaser.Easing.Linear.None, true);
+        this.miku.animations.add('walk' , this.addFrames('miku_walk_' , 0, 7));
+        this.miku.animations.play('walk', 11 , true);
+        this.add.tween(this.miku).to({ x: game.width }, 30000, Phaser.Easing.Linear.None, true);
         
         //for game music 
+        this.selectSound = this.add.audio('collect'); 
         this.music = this.add.audio('megaManTheme');
         this.music.loopFull();
         
@@ -88,20 +102,10 @@ mikuDash.StartMenu.prototype = {
     this.sprite.filters = [ this.filter ];
 
     }, 
-    
-      addFrames :function(f1, f2){
-            var frames = []; 
-            for(var i = f1; i<=f2 ; i++){
-                if(!isNaN(f1) && !isNaN(f2)){
-                    frames.push(i); 
-                } else {
-                    console.error('must pass a number to the addFrames function'); 
-                }
-            }
-            return frames; 
-        },
+
     
     startGame:function(pointer){
+        this.selectSound.play()
         this.state.start('Game');
     }, 
     

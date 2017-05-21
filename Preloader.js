@@ -32,7 +32,7 @@ mikuDash.Preloader = function(game) {
          this.load.audio('megaManTheme' , 'assets/audio/level_1.mp3');
          this.load.audio('ah' , 'assets/audio/ah.mp3'); 
          this.load.audio('powerup',  'assets/audio/powerup.mp3'); 
-         this.load.audio('select' , 'assets/audio/select.mp3');
+         this.load.audio('collect' , 'assets/audio/collect.mp3');
      }, 
      
      create: function() {
