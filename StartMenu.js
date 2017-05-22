@@ -106,6 +106,7 @@ mikuDash.StartMenu.prototype = {
     
     startGame:function(pointer){
         this.selectSound.play()
+        this.music.destroy();
         this.state.start('Game');
     }, 
     

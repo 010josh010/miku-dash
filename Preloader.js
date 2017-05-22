@@ -29,7 +29,8 @@ mikuDash.Preloader = function(game) {
         
          //for loading game audio 
          this.load.audio('polka' , 'assets/audio/polka.mp3');
-         this.load.audio('megaManTheme' , 'assets/audio/level_1.mp3');
+         this.load.audio('megaManTheme' , 'assets/audio/megaman_x3_opening.mp3');
+         this.load.audio('zeroTheme' , 'assets/audio/megaman_x3_zero.mp3');
          this.load.audio('ah' , 'assets/audio/ah.mp3'); 
          this.load.audio('powerup',  'assets/audio/powerup.mp3'); 
          this.load.audio('collect' , 'assets/audio/collect.mp3');

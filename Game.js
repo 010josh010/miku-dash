@@ -59,7 +59,7 @@ mikuDash.Game.prototype = {
         
         //for setting gravity and body properties 
         //this.player.enableBody = true;
-        this.player.body.gravity.y = 1000 ;
+        this.player.body.gravity.y = 900 ;
         this.player.body.bounce.y = 0.2;
         this.player.body.collideWorldBounds = true;
         
@@ -87,12 +87,13 @@ mikuDash.Game.prototype = {
         this.player.animations.play('idle' , 11 , true);
         
         //for player movement speed 
-        this.player.walkSpeed = 250 ; 
-        this.player.runSpeed = 500; 
+        this.player.walkSpeed = 300 ; 
+        this.player.dashSpeed = 600;
         this.player.jumpHeight = -550;
         
         //background speed
-        this.backgroundSpeed = 4.5;
+        this.backgroundSpeed = 5;
+        this.dashBackgroundSpeed = 10; 
         
         //for camera 
         this.game.camera.follow(this.player ,Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
@@ -100,10 +101,16 @@ mikuDash.Game.prototype = {
         
         //for controls 
         this.cursors = this.input.keyboard.createCursorKeys(); 
+        this.dashBtn = this.input.keyboard.addKey(Phaser.Keyboard.D); 
         this.fireBtn = this.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR); 
         
+        //for music
+        
+        this.music = this.add.audio('zeroTheme');
+        this.music.loopFull();
+        
         //to stop keyboard events from propagating to the browser
-        this.input.keyboard.addKeyCapture([ Phaser.Keyboard.LEFT, Phaser.Keyboard.RIGHT, Phaser.Keyboard.SPACEBAR ]);
+        this.input.keyboard.addKeyCapture([ Phaser.Keyboard.LEFT, Phaser.Keyboard.RIGHT, Phaser.Keyboard.SPACEBAR , Phaser.Keyboard.D ]);
         
         //for start text 
         this.startText = this.add.bitmapText(this.player.body.position.x+300, this.world.centerY-450, 'Idroid' , 'Start!' , 48); 
@@ -279,6 +286,25 @@ mikuDash.Game.prototype = {
                 
                 this.player.body.velocity.y = this.player.jumpHeight; 
         } 
+        
+        //for player dashing 
+        if(this.dashBtn.isDown){
+            
+            this.player.walkSpeed = this.player.dashSpeed;
+            this.backgroundSpeed = this.dashBackgroundSpeed;
+            
+        } else if(this.player.isOnFloor) {
+            
+            this.player.walkSpeed = 300;
+            this.backgroundSpeed = 5; 
+        }
+        
+        
+        //for player attacking 
+        
+        if(this.fireBtn.isDown){
+            console.log('attack!')
+        }
         
     }, 
     
