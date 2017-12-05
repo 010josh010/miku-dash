@@ -2,4 +2,4 @@
 
 #### A hatsune miku browser sidescroller , built in Phaser 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/master/img/mikudash.gif)
+![Miku Dash](https://raw.githubusercontent.com/010josh010/010josh010.github.io/master/img/mikudash.gif)
